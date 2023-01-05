@@ -1,38 +1,206 @@
-.App {
+.butn {
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgba(0, 10, 32, 0.05);
+  --tw-text-opacity: 1;
+  color: rgb(89 89 89 / var(--tw-text-opacity));
+}
+.butn:hover {
+  background-color: #e5e6e8;
+}
+/* hide scrollbar9**/
+/* .one::-webkit-scrollbar {
+    display: none;
+  } */
+/* .row {
+  height: 92vh;
+}*/
+/* .body::-webkit-scrollbar {
+  display: none;
+} */
+/*
+.navbar {
+  height: 8vh;
+}
+.edit {
+  height: 50vh;
+}*/
+.optoncode {
+  background-color: #ebebeb;
+  /* height: 40px; */
+}
+/* .div21 {
+  /* height: 100vh; */
+/* overflow: scroll; }*/
+#div21::-webkit-scrollbar {
+  display: none;
+}
+.body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background-color: #ebebeb;
+   overflow-x: hidden;
+
+}
+/* .outnav {
+  height: 24px;
+} */
+.btn2 {
+  /* background-color: #e5e6e8; */
+  border-radius: 7px;
+  font-size: 14px;
+  border: none;
+  padding: 3px 15px;
   text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn2:hover {
+  background-color: #e5e6e8;
+  font-weight: bold;
+}
+.active {
+  background-color: #f0f0f0;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.plus {
+  /* margin-top: -2px; */
+  font-weight: 5000;
+  opacity: 40%;
+  font-size: x-large;
+  cursor: pointer;
+}
+.plus:hover {
+  opacity: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* #code-inp {
+  box-sizing: border-box;
+  width: 90%;
+  resize: none;
+  background-color: #f2f3f4;
+  color: whitesmoke;
+  padding: 5px;
+}
+#code-inp:focus {
+  outline: none;
+}
+.input-box {
+  flex: 50%;
+}
+.input-box textarea {
+  font-size: 16px;
+} */
+/* style="margin: 10px 0px; resize: none; height: 100px; background: rgb(255, 255, 255); border: 1px solid rgb(232, 236, 244); border-radius: 4px;" */
+
+
+.txtarea {
+  margin: 5px 25px;
+  resize: none;
+  /* height: 100px; */
+  /* background: rgb(255, 255, 255); */
+  background-color: #f0f0f0;
+  border: 1px solid rgb(232, 236, 244);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  /* color: #666c; */
+  padding: 6px 12px;
+  min-width: calc(100% - 50px);
+  max-width: 93%;
+  /* min-height: 33px;
+  max-height: 33px; */
+  float: inherit;
+  -webkit-box-sizing: border-box;
+  writing-mode: horizontal-tb !important;
+  font-family: monospace;
+  text-rendering: auto;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  column-count: initial !important;
+}
+textarea:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  /* box-shadow: 0 0 10px #719ECE; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.div21 {
+  /* display: block; */
+  /* height:40vh; */
+
+  
+}
+/* .div1 {
+  max-height: 57px;
+} */
+
+.actoutnav {
+  font-weight: 550;
+  text-decoration: underline;
+}
+.inpout {
+  height: calc(100vh - 220px - 48vh - 0.5rem);
+  overflow-y: auto;
+}
+/* .outfoot {
+  min-height: 40px;
+  background-color: white;
+} */
+
+.btn3 {
+  border-radius: 7px;
+  font-size: 14px;
+  padding: 6px 12px;
+  border: none;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn3:hover {
+  background-color: #e5e6e8;
+}
+.btn-green{
+  background-color: rgb(45 181 93);
   color: white;
 }
+.btn-green:hover{
+  background-color: #269a4f;
+}
+/* .outt {
+  height: calc(100vh - 100px - 50vh - 0.5rem);
+} */
 
-.App-link {
-  color: #61dafb;
+.leftnav{
+  background-color: #ebebeb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.div2212{
+  padding: 11px;
+}
+.div21,
+.div22{
+width: 50%;
+}
+.div224{
+  background-color: white;
+}
+.hidden{
+  background-color: red;
 }
